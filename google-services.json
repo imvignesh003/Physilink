@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412948666239",
+    "project_id": "firpro-c8078",
+    "storage_bucket": "firpro-c8078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412948666239:android:d1e67c5341c800e0632c4a",
+        "android_client_info": {
+          "package_name": "com.imvignesh.firp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7leZnNL-WZLKyKpDgsJ-9arQF7dxtGcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

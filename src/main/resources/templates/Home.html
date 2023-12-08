@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"xmlns="http://www.w3.org/1999/xhtml"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        .container {
+            background-color: white;
+            border: 1px solid black;
+            color: rgb(245, 237, 237);
+        }
+        .btn-primary {
+            background-color: rgb(255, 180, 5);
+        }
+      
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+        padding: 40px;
+        background: rgba(0,0,0,0.8);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+        border-radius: 10px;
+    }
+    .container h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+    .container .form-group {
+        position: relative;
+    }
+    .container .form-group input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #faf4f4;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+    }
+    .container .form-group input::placeholder {
+        color: rgba(255,255,255,0.5);
+    }
+    .container .form-group input[type='submit'] {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #000000;
+        background: #03a9f4;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="userId">User ID:</label>
+                <input type="text" class="form-control" id="userId" placeholder="Enter User ID" name="userId">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary" >Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} -->
