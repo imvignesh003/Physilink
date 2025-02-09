@@ -19,6 +19,9 @@ In the hectic life of 21th century, taking complete care of people with disabili
 o	User friendly dashboards,
 o	Emergency assistance, 
 
+## Demo
+https://github.com/user-attachments/assets/3a3536cc-3154-4729-8aaf-e405893fddae
+
 
 
 
